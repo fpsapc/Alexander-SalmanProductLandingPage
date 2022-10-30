@@ -9,25 +9,26 @@
 </head>
 <body>
     <header id="header">
-        <img src="#" alt="Logo" id="header-img">
+        <img src="/logo.webp" alt="Logo" id="header-img">
         <nav id="nav-bar">
             <ul>
-                <li><a href="#" class="nav-link">Home</a></li>
-                <li><a href="#" class="nav-link">Contact Us</a></li>
-                <li><a href="#" class="nav-link">Help</a></li>
+                <li><a href="#header" class="nav-link">Home</a></li>
+                <li><a href="#footer" class="nav-link">Contact Us</a></li>
+                <li><a href="#main" class="nav-link">Help</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" id="email" name="email" placeholder="Enter your email to continue">
+            <input type="submit" id="submit" value="Submit">
+        </form>
         <video id="video" src="#"></video>
         <iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-<form action="https://www.freecodecamp.com/email-submit" id="form">
-    <input type="email" id="email" name="email" placeholder="introduce email">
-    <input type="submit" id="submit" value="Submit">
-</form>
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
     </main>
+    <footer id="footer"><a>Click Here</a></footer>
 </body>
 </html>
 <!-- When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page
